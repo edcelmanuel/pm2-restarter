@@ -13,6 +13,7 @@
     pm2.restart(7, function() {});
     pm2.restart(6, function() {});
     pm2.restart(9, function() {});
+    pm2.restart(10, function() {});
 
     setTimeout(worker, 60 * 5000);
     }, 60 * 5000);
